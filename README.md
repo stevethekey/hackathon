@@ -1,4 +1,4 @@
-Broward College Hackathon, 2019
+Broward College Hackathon, 2019.
   A transfer guide to assist students for Broward College students 
   in determining the prerequisites for their intended major at their intended university.
 
