@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: bisque;
+}
+
+/* id needs to be customized by # */
+/* class needs the . */
+
+
+
+.text-center{
+    background-color: darkgoldenrod;
+    color: aliceblue;
+}
+
+#footer{
+    clear:both;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: black;
+    text-align: right;
+}
+
+
