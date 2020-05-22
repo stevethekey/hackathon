@@ -3,7 +3,6 @@ Broward College Hackathon, 2019.
   in determining the prerequisites for their intended major at their intended university.
 
   The program asks the user for their name, intended major, and intended university. Then, the program redirects them to the page
-  they need to be to determine the right prerequisites. From there, they may be able to make an appointment with an advisor. "Alpha" is the
-  final version, while "Beta" is the rough draft so to speak. I decided to include both so anyone can see the progress made in between.
+  they need to be to determine the right prerequisites. From there, they may be able to make an appointment with an advisor. 
   
-  This was the first time I used HTML. I learned a lot from the mentors, as it even features a little bit of javascript with the user         interaction. Most importantly,   I'm proud of this because I think this  program is useful and can help students with the process of       transferring colleges.
+  This was the first time I used HTML. I learned a lot from the mentors, as it even features a little bit of javascript with the user         interaction. Most importantly, I'm proud of this because I think this program is useful and can help students with the process of        transferring colleges.
