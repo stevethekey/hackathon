@@ -1,5 +1,5 @@
 Broward College Hackathon, 2019.
-  A transfer guide to assist students for Broward College students 
+  A transfer guide to assist Broward College students 
   in determining the prerequisites for their intended major at their intended university.
 
   The program asks the user for their name, intended major, and intended university. Then, the program redirects them to the page
