@@ -3,7 +3,7 @@ Broward College Hackathon, 2019.
   in determining the prerequisites for their intended major at their intended university.
 
   The program asks the user for their name, intended major, and intended university. Then, the program redirects them to the page
-  they need to be to determine the right prerequisites. From there, they will see the classes needed for their major at their
+  they need to determine the right prerequisites. From there, they will see the classes needed for their major at their
   specific university they intend to transfer to. They may be also at this time be able to make an appointment with an academic 
   advisor if they will like further assistance.
   
