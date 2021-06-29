@@ -19,7 +19,7 @@
             <h3 class="text-center">Broward College Transfer Guidance</h3>
             <div class="container">
             <p>Hello and welcome to a Broward College transfer guide. The process of transferring
-                to a different university can sometimes be overwheliming, especially to incoming freshmen.
+                to a different university can sometimes be overwhelming, especially to incoming freshmen.
                  I hope to ease this process by creating an interface to help you during your journey.</p>
 
                  
@@ -55,7 +55,7 @@
         
                 </div>
             
-                <p4>Finally, please tell me what is you would like to study there.</p4>
+                <p4>Finally, please tell me what it is you would like to study there.</p4>
                 <p>Intended Major:</p>
                         <input type="text" name="intended_major" value="" placeholder="enter a major">
                         <br><br>
@@ -102,7 +102,7 @@
                      
                         transferoutput= transferoutput+'<p> I see that you want to study '  + intended_major  + " at " + school + '</strong></p>';
                         transferoutput= transferoutput+'<p <strong>Below is an important url! Please click this and find ' + school + ' with ' + intended_major + '</strong></p>';
-                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/admin-tools/common-prerequisites-manuals/2019-2020-manual/program-listing-alphabetic-order-2019" target="_blank">Classes you need to take</a></p>';
+                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/documents/210036/1489430/cppManual2019cip.pdf/45b5bb1c-8299-b4ef-fc19-9780aa1ede18" target="_blank">Classes you need to take</a></p>';
 
                     }
              
@@ -110,38 +110,33 @@
                      
                         transferoutput= transferoutput+'<p> I see that you want to study '  + intended_major  + " at " + school + '</strong></p>';
                         transferoutput= transferoutput+'<p <strong>Below is an important url! Please click this and find ' + school + ' with ' + intended_major + '</strong></p>';
-                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/admin-tools/common-prerequisites-manuals/2019-2020-manual/program-listing-alphabetic-order-2019" target="_blank">Classes you need to take</a></p>';
-
+                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/documents/210036/1489430/cppManual2019cip.pdf/45b5bb1c-8299-b4ef-fc19-9780aa1ede18" target="_blank">Classes you need to take</a></p>';
                     }
                   
                 else if ( school === 'ucf' ) {
                      
                         transferoutput= transferoutput+'<p> I see that you want to study '  + intended_major  + " at " + school + '</strong></p>';
                         transferoutput= transferoutput+'<p <strong>Below is an important url! Please click this and find ' + school + ' with ' + intended_major + '</strong></p>';
-                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/admin-tools/common-prerequisites-manuals/2019-2020-manual/program-listing-alphabetic-order-2019" target="_blank">Classes you need to take</a></p>';
-
+                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/documents/210036/1489430/cppManual2019cip.pdf/45b5bb1c-8299-b4ef-fc19-9780aa1ede18" target="_blank">Classes you need to take</a></p>';
                     }
                    
                else if ( school === 'uf' ) {
                      
                         transferoutput= transferoutput+'<p> I see that you want to study '  + intended_major  + " at " + school + '</strong></p>';
                         transferoutput= transferoutput+'<p <strong>Below is an important url! Please click this and find ' + school + ' with ' + intended_major + '</strong></p>';
-                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/admin-tools/common-prerequisites-manuals/2019-2020-manual/program-listing-alphabetic-order-2019" target="_blank">Classes you need to take</a></p>';
-                    }
+                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/documents/210036/1489430/cppManual2019cip.pdf/45b5bb1c-8299-b4ef-fc19-9780aa1ede18" target="_blank">Classes you need to take</a></p>';                    }
                    
                 else if ( school === 'fsu' ) {
                      
                         transferoutput= transferoutput+'<p> I see that you want to study '  + intended_major  + " at " + school + '</strong></p>';
                         transferoutput= transferoutput+'<p <strong>Below is an important url! Please click this and find ' + school + ' with ' + intended_major + '</strong></p>';                        
-                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/admin-tools/common-prerequisites-manuals/2019-2020-manual/program-listing-alphabetic-order-2019" target="_blank">Classes you need to take</a></p>';                        
-                    }
+                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/documents/210036/1489430/cppManual2019cip.pdf/45b5bb1c-8299-b4ef-fc19-9780aa1ede18" target="_blank">Classes you need to take</a></p>';                    }
                 
                 else if (school === 'other'){
                         transferoutput= transferoutput+'<p> I see that you want to study '  + intended_major  + ' but are unsure where you would like to study.</strong></p>';
                         transferoutput= transferoutput+'<p <strong>Below is an important url! Please click this and explore universities in Florida that offer '+  intended_major + '. </strong></p>';                        
                         transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/admin-tools/common-prerequisites-manuals/2019-2020-manual/program-listing-alphabetic-order-2019" target="_blank">Classes you need to take</a></p>';
-                        transferoutput= transferoutput+'<p> Explore universities that offer ' + intended_major + ' and note their pre-reqs! </p>';
-                }      
+                        transferoutput= transferoutput+'<p style="color:red"><a href="https://dlss.flvc.org/documents/210036/1489430/cppManual2019cip.pdf/45b5bb1c-8299-b4ef-fc19-9780aa1ede18" target="_blank">Classes you need to take</a></p>';                }      
                 
                  document.getElementById("continue_form").innerHTML=transferoutput;
                 }
