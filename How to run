@@ -1,0 +1,12 @@
+How do I run this?
+    No makefile here to make an executable file haha. To run this, you just need:
+
+    1) be on VS code
+
+    2) have VS code extension called "open in browser" installed
+
+    3) right click the HTML document called index.html, then click "Open in other browser". Finally, select Google Chrome. 
+
+    Also, the documents must exist in your local machine. The complier needs a way to access the path to these files, meaning index/style 
+    files must be somewhere in your computer preferably together in a folder.
+    
